@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.passagem {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid red;
+    margin: 10px;
+    width: 400px;
+}
+
+.superior {
+    color: black;
+    font-weight: bold;
+    background-color:  rgb(102, 150, 255);
+    border-bottom: 2px dashed black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ 
+}
+.lugares {
+    margin-top: 2px;
+}
+
+.origem-destino {
+    display: inline;
+    margin-right: 100px;
+}
+
+.numero {
+    display: inline;
+}
+.lista {
+    display: inline-block;
+}
+
+.imagem {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.ocupacao {
+    display: inline-flex;
+}
+
+.botao {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+button {
+   
+    font-family:  'Oswald', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 16px;
+    border-style: solid;
+}
+
+
+.Reservar {
+    border-color: rgb(46, 74, 134);
+    background:  rgb(102, 150, 255);
+    color: black;
+    border-radius: 5px;
+}
+
+.Indisponível {
+    border-color: rgb(141, 141, 141);
+    background-color: black;
+    color: white;
+}
